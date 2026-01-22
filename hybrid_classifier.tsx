@@ -11,10 +11,10 @@ const HybridClassifier = () => {
   const [trainingData, setTrainingData] = useState([]);
   const [useHybrid, setUseHybrid] = useState(true);
   const [confidence, setConfidence] = useState(0.7);
-  const [apiKey, setApiKey] = useState('AIzaSyD0_wwtmBaZTdMng0h8XmWPyy_WIL0zYFg');
+  const [apiKey, setApiKey] = useState('API KEY');
   const [useCors, setUseCors] = useState(true);
 
-  const GEMINI_MODEL = 'gemini-2.5-pro';
+  const GEMINI_MODEL = 'gemini model';
 
   // Simple TF-IDF vectorizer for traditional ML
   const calculateTFIDF = (docs) => {
